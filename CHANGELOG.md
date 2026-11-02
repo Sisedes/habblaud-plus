@@ -10,6 +10,11 @@ do meio (0.**3**.0).
 
 ## [Não lançado]
 
+### Adicionado
+
+- Antigravity (`agy`) no escritório: as conversas de `~/.gemini/antigravity/conversations/` aparecem como agentes (HABBLAUD_AGY=0 desliga). Somente leitura; precisa de Node 22.13 ou mais novo (`node:sqlite`).
+- Cursor no escritório: as conversas do agente em `~/.cursor/projects/*/agent-transcripts/` aparecem como agentes (HABBLAUD_CURSOR=0 desliga). Somente leitura.
+
 ## [1.0.3] - 2026-10-16
 
 ### Corrigido
